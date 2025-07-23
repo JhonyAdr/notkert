@@ -1,72 +1,44 @@
-# Informe Final del Proyecto
+# Notkert
 
----
+Notkert es una aplicación Android desarrollada con Kotlin y Android Studio. Este proyecto está estructurado siguiendo las mejores prácticas de desarrollo móvil, utilizando Gradle para la gestión de dependencias y configuración.
 
-## Carátula
+## Características
 
-**Nombre del estudiante:** Jhon Anderson  
-**Carrera:** Ingeniería de Sistemas  
-**Asignatura:** Desarrollo de Aplicaciones Móviles  
-**Docente:** [Nombre del docente]  
-**Fecha:** 22 de julio de 2025
+- Arquitectura modular con carpetas separadas para frontend (`app/`) y backend (`backend-notkert/`).
+- Integración con servicios de Google (ver `google-services.json`).
+- Uso de Hilt para inyección de dependencias.
+- Configuración de Proguard para ofuscación y optimización.
+- Soporte para pruebas unitarias y de instrumentación.
 
----
+## Requisitos
 
-## Título
+- Android Studio Electric Eel o superior
+- JDK 11+
+- Gradle 8+
+- Dispositivo o emulador con Android 7.0 (API 24) o superior
 
-**Notkert: Aplicación Android para gestión y organización personal**
+## Instalación
 
----
+1. Clona el repositorio:
+   ```
+   git clone https://github.com/JhonyAdr/notkert.git
+   ```
+2. Abre el proyecto en Android Studio.
+3. Configura las credenciales necesarias en `local.properties` y `google-services.json`.
+4. Sincroniza el proyecto con Gradle.
+5. Ejecuta la aplicación en un emulador o dispositivo físico.
 
-## Descripción de la necesidad o problema
+## Estructura del proyecto
 
-En la actualidad, la gestión eficiente de tareas y actividades personales es fundamental para mejorar la productividad. Sin embargo, muchas personas carecen de herramientas intuitivas y accesibles que les permitan organizar sus pendientes, recordatorios y notas de manera centralizada desde su dispositivo móvil.
+- `app/`: Código fuente de la aplicación Android.
+- `backend-notkert/`: Lógica de backend (si aplica).
+- `gradle/`: Configuración de dependencias y wrapper de Gradle.
+- `build.gradle.kts`, `settings.gradle.kts`: Archivos de configuración principal.
 
----
+## Contribuir
 
-## Objetivos
+Las contribuciones son bienvenidas. Por favor, abre un issue o envía un pull request.
 
-**Objetivo General:**  
-Desarrollar una aplicación móvil en Android que permita a los usuarios gestionar sus tareas, notas y recordatorios de forma sencilla y eficiente.
+## Licencia
 
-**Objetivos Específicos:**  
-- Implementar una interfaz intuitiva para la creación y edición de tareas.
-- Integrar notificaciones para recordar actividades importantes.
-- Permitir la sincronización de datos con servicios en la nube.
-- Garantizar la seguridad y privacidad de la información del usuario.
-
----
-
-## Metodología
-
-- **Arquitectura:** Modular, con separación de frontend (`app/`) y backend (`backend-notkert/`).
-- **Patrones:** MVVM (Model-View-ViewModel) para la gestión de la interfaz y lógica de negocio.
-- **Técnicas:** Inyección de dependencias con Hilt, persistencia local con Room, navegación con Jetpack Navigation.
-- **Librerías:** Hilt, Room, Retrofit, LiveData, ViewModel, Google Services.
-- **Herramientas:** Android Studio, Gradle, GitHub, Google Drive para distribución del APK.
-
----
-
-## Resultados
-
-A continuación se presentan capturas de pantalla de la aplicación en funcionamiento:
-
-![Pantalla principal](ruta/a/captura1.png)
-![Gestión de tareas](ruta/a/captura2.png)
-![Notificaciones](ruta/a/captura3.png)
-
----
-
-## Conclusiones
-
-La aplicación Notkert cumple con los objetivos planteados, ofreciendo una solución práctica para la gestión personal de tareas y notas. El uso de arquitecturas y librerías modernas permitió un desarrollo eficiente y escalable. La integración con servicios de Google y la implementación de buenas prácticas de seguridad garantizan una experiencia confiable para el usuario.
-
----
-
-## Anexos
-
-- **Código Fuente GitHub:**  
-  [https://github.com/JhonyAdr/notkert](https://github.com/JhonyAdr/notkert)
-
-- **Enlace Drive al APK de la app:**  
-  [https://drive.google.com/tu-enlace-apk](https://drive.google.com/tu-enlace-apk)
+Este proyecto está bajo la licencia MIT.
