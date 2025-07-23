@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "884263380987",
+    "project_id": "notkert-ebc1d",
+    "storage_bucket": "notkert-ebc1d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884263380987:android:b0ec4436ee47c299330d5e",
+        "android_client_info": {
+          "package_name": "mamani.luna.notkert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-fKS0gxZ9Gs3Ccf5Z4Ey17md3atHr8WA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

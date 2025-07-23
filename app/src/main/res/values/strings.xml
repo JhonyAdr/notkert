@@ -1,0 +1,38 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">Notkert</string>
+    <string name="back">Volver</string>
+    <string name="settings">Ajustes</string>
+    <string name="menu">Menú</string>
+    <string name="animations_demo_title">Demo de Animaciones</string>
+    <string name="animations_demo_fab_description">Ir a la demo de animaciones</string>
+    <string name="save_changes">Guardar Cambios</string>
+
+    <!-- Catalog List Screen -->
+    <string name="catalog_title">Notkert Catálogo</string>
+    <string name="product_price_format">Precio: $%.2f</string>
+
+    <!-- Product Detail Screen -->
+    <string name="product_image_placeholder">Imagen del producto</string>
+    <string name="add_to_cart">Añadir al Carrito</string>
+    <string name="added_to_cart">Añadido ✓</string>
+
+    <!-- Settings Screen -->
+    <string name="appearance">Apariencia</string>
+    <string name="theme">Tema</string>
+    <string name="theme_subtitle">Sigue la configuración del sistema</string>
+    <string name="about">Acerca de</string>
+    <string name="app_version">Versión de la App</string>
+    <string name="app_version_number">1.0.0 (Build 1)</string>
+
+    <!-- Animation Showcase Screen -->
+    <string name="anim_infinite_transition">1. InfiniteTransition</string>
+    <string name="anim_animated_content">2. AnimatedContent</string>
+    <string name="anim_crossfade">3. Crossfade</string>
+    <string name="anim_animate_content_size">4. animateContentSize</string>
+    <string name="anim_description_expandable">Haz clic para ver más... Este contenedor es reutilizable y muestra cómo el tamaño puede animarse suavemente.</string>
+    <string name="subtract">Restar</string>
+    <string name="add">Sumar</string>
+    <string name="state_active">ACTIVADO</string>
+    <string name="state_inactive">DESACTIVADO</string>
+</resources>
